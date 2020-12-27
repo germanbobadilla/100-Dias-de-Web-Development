@@ -1,5 +1,28 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgba(233, 233, 233, 0.897);
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgb(223, 223, 223);
+    margin: 30px 0px 30px 0px;
+    height: 792px;
+    width: 612px;
+    background-color: white;
+    padding: 20px;
+}
+
+h1, header p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
