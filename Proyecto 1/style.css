@@ -4,8 +4,6 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     background-color: rgba(233, 233, 233, 0.897);
     display: flex;
@@ -22,17 +20,80 @@ body {
     padding: 20px;
 }
 
-h1, header p {
-    margin: 0;
-    padding: 0;
-}
+/* Cabecera */
 
 header {
     display: flex;
     justify-content: space-between;
 }
 
+.acercade {
+    line-height: 1.5;
+}
+
 .socialmedia, .direccion {
     text-align: right;
 }
 
+.contenedor-principal {
+    display: flex;
+}
+
+h1, h3 {
+    color: rgb(0, 165, 216);
+}
+
+/* Parte principal */
+
+main {
+    width: 70%;
+    padding: 10px;
+}
+
+aside {
+    width: 30%;
+    padding: 10px;
+    border-left: 1px solid rgb(179, 179, 179);
+}
+
+/* Aquí van las experiencias */
+
+.empleo .empresa a {
+    color: rgb(51, 36, 104);
+}
+
+.lugar {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.fecha {
+    font-weight: 200;
+    font-size: 0.7em;
+    margin-top: 3px;
+}
+
+.acercadelempleo {
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 2px;
+    line-height: 1.5;
+}
+
+.empleo {
+    margin: 15px 0px 10px 0px;
+}
+
+/* Aquí van las habilidades */
+
+.habilidades {
+    margin: 5px 0px 7px 0px;
+    font-size: 0.9rem;
+}
+
+/* Proyectos */
+
+.proyectos {
+    margin-top: 15px;
+}
